@@ -88,4 +88,36 @@ node default {
     ensure => link,
     target => $boxen::config::repodir
   }
+
+  class { 'intellij':
+    edition => 'community',
+  }
+
+  include libpng
+  include iterm2::stable
+  include cmake
+  include charles
+  include dropbox
+  include steam
+  include heroku
+  include foreman
+  include redis
+  include chrome
+  include android::sdk
+  include android::studio
+  include pcre
+  include zsh
+  include transmission
+  include caffeine
+  include github_for_mac
+  include alfred
+  include firefox
+  include skype
+  include adium
+  include sequel_pro
+  include java
+  include postgresql
+  include shortcat
+  include wget
+  include vmware_fusion
 }
