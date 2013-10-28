@@ -99,7 +99,6 @@ node default {
   include charles
   include dropbox
   include steam
-  include heroku
   include foreman
   include redis
   include chrome
